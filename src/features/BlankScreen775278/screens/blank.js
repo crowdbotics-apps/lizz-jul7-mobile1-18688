@@ -30,7 +30,7 @@ export class _Blank extends React.Component {
   }
 
   render = () => (
-    <View
+    <ImageBackground
       style={{
         width: "100%",
         height: "100%",
@@ -336,7 +336,7 @@ export class _Blank extends React.Component {
         value={this.state.Input_24}
         onChangeText={nextValue => this.setState({ Input_24: nextValue })}
       />
-    </View>
+    </ImageBackground>
   )
 }
 
