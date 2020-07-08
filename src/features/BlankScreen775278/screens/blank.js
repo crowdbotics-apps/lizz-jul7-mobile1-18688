@@ -31,6 +31,10 @@ export class _Blank extends React.Component {
 
   render = () => (
     <ImageBackground
+      source={{
+        uri:
+          "https://d3tklmlrp1a8c2.cloudfront.net/media/project_component_resources/img_avatar2_vpJmIom.png"
+      }}
       style={{
         width: "100%",
         height: "100%",
