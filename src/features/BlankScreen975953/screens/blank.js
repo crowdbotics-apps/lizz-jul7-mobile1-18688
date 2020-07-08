@@ -202,6 +202,7 @@ export class _Blank extends React.Component {
         textStyle={{ height: 100, fontSize: 20, color: "#000000" }}
         style={{
           width: "100%",
+          height: 30,
           marginLeft: 0,
           marginRight: 0,
           marginTop: 5,
@@ -344,6 +345,36 @@ export class _Blank extends React.Component {
         }}
         checked={this.state.Radio_11}
         onChange={nextChecked => this.setState({ Radio_11: nextChecked })}
+      />
+      <Image
+        resizeMode="center"
+        source={{
+          uri:
+            "https://d3tklmlrp1a8c2.cloudfront.net/media/project_component_resources/img_avatar2_6sSB8fY.png"
+        }}
+        style={{
+          width: 100,
+          height: 100,
+          marginLeft: 0,
+          marginRight: 0,
+          marginTop: 0,
+          marginBottom: 0,
+          paddingLeft: 0,
+          paddingRight: 0,
+          paddingTop: 0,
+          paddingBottom: 0,
+          overflow: "visible",
+          textAlign: "left",
+          verticalAlign: "baseline",
+          borderColor: "#000000",
+          borderStyle: "solid",
+          borderWidth: 0,
+          borderLeftWidth: 0,
+          borderRightWidth: 0,
+          borderTopWidth: 0,
+          borderBottomWidth: 0,
+          borderRadius: 0
+        }}
       />
     </View>
   )
